@@ -2,7 +2,7 @@ const cardsGatos = document.querySelector("div#cardsGatos");
 const cards = [];
 const gatos = [
   {
-    imagen: "../img/gato1.JPEG",
+    imagen: "../img/gato1.jpeg",
     nombre: "Atenea",
     edad: "3 años",
     fecha: "10/09/2023",
@@ -10,7 +10,7 @@ const gatos = [
     ubicacion: "Santa Fe",
   },
   {
-    imagen: "../img/gato2.JPEG",
+    imagen: "../img/gato2.jpeg",
     nombre: "Minerva",
     edad: "4 meses",
     fecha: "12/09/2023",
@@ -18,7 +18,7 @@ const gatos = [
     ubicacion: "Entre Rios",
   },
   {
-    imagen: "../img/gato3.JPEG",
+    imagen: "../img/gato3.jpeg",
     nombre: "Flor",
     edad: "1 año",
     fecha: "05/09/2023",
@@ -26,7 +26,7 @@ const gatos = [
     ubicacion: "Rosario",
   },
   {
-    imagen: "../img/gato4.JPEG",
+    imagen: "../img/gato4.jpeg",
     nombre: "Pícaro",
     edad: "3 años",
     fecha: "26/08/2023",
@@ -34,7 +34,7 @@ const gatos = [
     ubicacion: "CABA",
   },
   {
-    imagen: "../img/gato5.JPEG",
+    imagen: "../img/gato5.jpeg",
     nombre: "Ciccio",
     edad: "8 meses",
     fecha: "30/09/2023",
@@ -42,7 +42,7 @@ const gatos = [
     ubicacion: "La Plata",
   },
   {
-    imagen: "../img/gato6.JPEG",
+    imagen: "../img/gato6.jpeg",
     nombre: "Tigris",
     edad: "3 meses",
     fecha: "12/09/2023",
@@ -50,7 +50,7 @@ const gatos = [
     ubicacion: "Córdoba",
   },
   {
-    imagen: "../img/gato7.JPEG",
+    imagen: "../img/gato7.jpeg",
     nombre: "Tilin",
     edad: "1 año",
     fecha: "20/08/2023",
@@ -58,7 +58,7 @@ const gatos = [
     ubicacion: "Córdoba",
   },
   {
-    imagen: "../img/gato8.JPEG",
+    imagen: "../img/gato8.jpeg",
     nombre: "Pomelo",
     edad: "1 año",
     fecha: "20/08/2023",
@@ -66,7 +66,7 @@ const gatos = [
     ubicacion: "Rosario",
   },
   {
-    imagen: "../img/gato9.JPEG",
+    imagen: "../img/gato9.jpeg",
     nombre: "Manchi",
     edad: "8 meses",
     fecha: "09/09/2023",
@@ -74,7 +74,7 @@ const gatos = [
     ubicacion: "Pilar",
   },
   {
-    imagen: "../img/gato10.JPEG",
+    imagen: "../img/gato10.jpeg",
     nombre: "Igor",
     edad: "6 meses",
     fecha: "11/09/2023",
@@ -82,7 +82,7 @@ const gatos = [
     ubicacion: "Corrientes",
   },
   {
-    imagen: "../img/gato11.JPEG",
+    imagen: "../img/gato11.jpeg",
     nombre: "Lucy",
     edad: "6 meses",
     fecha: "12/09/2023",
@@ -90,7 +90,7 @@ const gatos = [
     ubicacion: "Carlos Paz",
   },
   {
-    imagen: "../img/gato12.JPEG",
+    imagen: "../img/gato12.jpeg",
     nombre: "Noche",
     edad: "2 meses",
     fecha: "05/09/2023",
@@ -98,7 +98,7 @@ const gatos = [
     ubicacion: "Gualeguaychu",
   },
   {
-    imagen: "../img/gato13.JPEG",
+    imagen: "../img/gato13.jpeg",
     nombre: "Botas",
     edad: "2 años",
     fecha: "18/09/2023",
