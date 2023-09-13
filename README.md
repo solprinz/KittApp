@@ -18,7 +18,7 @@
 
 [Github Autor](https://github.com/solprinz)
 
-### Desarrollo de APP WEB de Proyecto de DISEÑO UX UI
+* #### Esta APP WEB se desarrolló en base a un Proyecto de DISEÑO UX UI
 -[Ver Proyecto](https://www.behance.net/gallery/157078249/KittApp-DISENO-UX-UI)
 
--[Prototipo Móvil](https://www.figma.com/proto/SU5LkCcQRYOEkLF9q2pJtf/Prototipo-Prinzen?embed_host=share&kind=&node-id=114-1404&page-id=45%3A188&scaling=scale-down&starting-point-node-id=619%3A9380&viewport=748%2C1191%2C0.14)
+-[Prototipo Móvil](https://www.figma.com/proto/SU5LkCcQRYOEkLF9q2pJtf/Prototipo-Prinzen?embed_host=share&kind=&node-id=114-1404&page-id=45%3A188&scaling=scale-down&starting-point-node-id=619%3A9380&viewport=748%2C1191%2C0.14) *
