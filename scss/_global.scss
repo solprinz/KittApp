@@ -1,0 +1,52 @@
+.fondo {
+  background-image: url("../img/fondo.png");
+  background-position: center top;
+  background-repeat: repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.fondo-index {
+  background: linear-gradient($verditokitt, $rosakitt);
+}
+
+.card {
+  display: flex;
+}
+
+.contacto {
+  justify-content: center;
+  background-color: $rosakitt;
+  border: solid 3px $fucsiakitt;
+  border-radius: 10px;
+  /*   width: 600px; */
+  text-align: center;
+  justify-content: center;
+  padding: 10px 0;
+  margin: 30px 0;
+}
+
+.newsletter {
+  background-color: white;
+  border: solid 3px $fucsiakitt;
+  border-radius: 10px;
+  height: 250px;
+  text-align: center;
+  justify-content: center;
+  padding: 10px 0;
+  margin: 30px 0;
+}
+
+footer {
+  background-color: $verdekitt;
+  color: $rosakitt;
+}
+
+.footer-sm {
+  color: $rosakitt;
+  position: center;
+  font-size: 2rem;
+  padding: 10px;
+  list-style: none;
+  text-decoration: none;
+}

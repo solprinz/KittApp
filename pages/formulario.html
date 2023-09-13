@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KITTAPP - Adopción de gatos</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../img/favicon.png" />
+    <!-- Librerías: Bootstrap, FontAwesome, GoogleFonts -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS y JavaScript-->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script defer src="../js/form.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- Nav Bar -->
+      <nav class="navbar sticky-top navbar-expand-lg bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../img/logo.png" alt="Logo KittApp"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./adoptar.html"
+                  >Adoptar un gato</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./publicar.html">Dar en adopción</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <button class="btn btn-secondary" type="submit">
+              Descargar App
+            </button>
+          </div>
+        </div>
+      </nav>
+      <!-- Formulario de adopción -->
+      <main>
+        <h1 class="title text-center mt-3">Formulario de Adopción</h1>
+        <p class="text-primary text-center">
+          Completa los siguientes datos y, en caso de ser seleccionado, nos
+          comunicaremos contigo.
+        </p>
+
+        <div class="form m-3 row">
+          <div class="col-md">
+            <div class="mb-3">
+              <label for="">¿Por qué quieres adoptar este gato?</label>
+              <br />
+              <input
+                placeholder="Escriba su respuesta..."
+                type="text"
+                style="width: 320px; height: 50px"
+                required
+                id="input1"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="">¿Con quién convives? ¿Tienes niños?</label>
+              <br />
+              <input
+                type="text"
+                placeholder="Escriba su respuesta..."
+                style="width: 320px; height: 50px"
+                required
+                id="input2"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="">Cuéntanos un poco sobre ti/ellos:</label>
+              <br />
+              <input
+                type="text"
+                placeholder="Escriba su respuesta..."
+                style="width: 320px; height: 50px"
+                required
+                id="input3"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="">¿Tienes mascotas? ¿Perros, gatos? ¿Cuántos?</label>
+              <br />
+              <input
+                type="text"
+                placeholder="Escriba su respuesta..."
+                style="width: 320px; height: 50px"
+                required
+                id="input4"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="">¿Deseas agregar alguna otra información?</label>
+              <br />
+              <input
+                type="text"
+                placeholder="Escriba su respuesta..."
+                style="width: 320px; height: 50px"
+                required
+                id="input5"
+              />
+            </div>
+          </div>
+
+          <div class="col-md">
+            <h4>Datos de contacto:</h4>
+            <div class="mb-3">
+              <label for="">Nombre y apellido</label>
+              <br />
+              <input
+                placeholder="Complete con sus datos"
+                type="text"
+                required
+                style="width: 300px"
+                id="datos1"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="">Email:</label>
+              <br />
+              <input
+                type="email"
+                required
+                style="width: 300px"
+                id="datos2"
+                placeholder="Complete con sus datos"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="">Teléfono:</label>
+              <br />
+              <input
+                type="text"
+                style="width: 300px"
+                required
+                id="datos3"
+                placeholder="Complete con sus datos"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="">Fecha de nacimiento:</label>
+              <br />
+              <input type="date" style="width: 300px" required id="datos4" />
+            </div>
+
+            <div class="mb-3">
+              <label for="">Ciudad:</label>
+              <br />
+              <input
+                type="text"
+                required
+                style="width: 300px"
+                id="datos5"
+                placeholder="Complete con sus datos"
+              />
+            </div>
+            <button
+              class="btnForm btn btn-primary"
+              style="width: 300px"
+              id="enviar"
+            >
+              Enviar formulario
+            </button>
+          </div>
+        </div>
+      </main>
+    </header>
+    <!-- JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <!-- Footer -->
+  <footer class="text-center pt-5">
+    <div>Seguinos en nuestras redes</div>
+    <div class="footer-sm">
+      <a class="footer-sm" href="https://www.instagram.com">
+        <i class="fa-brands fa-instagram"></i
+      ></a>
+      <a class="footer-sm" href="https://www.facebook.com">
+        <i class="fa-brands fa-facebook"></i
+      ></a>
+      <a class="footer-sm" href="https://www.twitter.com">
+        <i class="fa-brands fa-twitter"></i
+      ></a>
+      <a class="footer-sm" href="https://www.youtube.com">
+        <i class="fa-brands fa-youtube"></i
+      ></a>
+      <a class="footer-sm" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+    <div>Copyright 2023 - Sol Prinzen</div>
+    <br />
+  </footer>
+</html>
