@@ -19,7 +19,7 @@
 
 [Github Autor](https://github.com/solprinz)
 
-#### Esta APP WEB se desarrolló en base a un Proyecto de DISEÑO UX UI
+#### Esta APP WEB se desarrolló en base a un Proyecto (propio) de DISEÑO UX UI
 
 -[Ver Proyecto](https://www.behance.net/gallery/157078249/KittApp-DISENO-UX-UI)
 
