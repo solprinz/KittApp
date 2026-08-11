@@ -123,7 +123,7 @@ function retornoCardHTML(gato) {
                 </ul>
                 <p class="small text-end">Publicación: ${gato.fecha}</p>
                 <div class="card-body text-center">
-                  <a class="btn btn-primary" href="/pages/formulario.html">
+                  <a class="btn btn-primary" href="./formulario.html">
                 ¡Quiero adoptarlo/a!</button></a>
                 </div>
               </div>
