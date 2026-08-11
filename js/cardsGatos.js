@@ -110,7 +110,7 @@ const gatos = [
 function retornoCardHTML(gato) {
   return `
   <div class="col-md-4 col-sm-2 card m-3" style="width: 18rem">
-                <div ><img src=${gato.imagen} class="card-img-top" "</div>
+                <div ><img src=${gato.imagen} class="card-img-top"> "</div>
                 <div class="card-body">
                   <h2 class="card-title text-center mb-0">${gato.nombre}</h2>
                 </div>
@@ -124,7 +124,7 @@ function retornoCardHTML(gato) {
                 <p class="small text-end">Publicación: ${gato.fecha}</p>
                 <div class="card-body text-center">
                   <a class="btn btn-primary" href="./formulario.html">
-                ¡Quiero adoptarlo/a!</button></a>
+                ¡Quiero adoptarlo/a!</a>
                 </div>
               </div>
               `;
