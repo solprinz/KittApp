@@ -7,7 +7,7 @@
 ---
 
 ## 🌐 Sitio Web en Vivo & Recurso UX/UI
-* 🔗 **[Visitar Sitio Web Desplegado](https://solprinz.github.io/KittApp-Web/)**
+* 🔗 **[Visitar Sitio Web Desplegado](https://kitt-app.vercel.app/)**
 * 🎨 **[Caso de Estudio UX/UI en Behance](https://www.behance.net/gallery/157078249/KittApp-DISENO-UX-UI)**
 * 📱 **[Prototipo Interactivo en Figma](https://www.figma.com/proto/SU5LkCcQRYOEkLF9q2pJtf/Prototipo-Prinzen?embed_host=share&kind=&node-id=114-1404&page-id=45%3A188&scaling=scale-down&starting-point-node-id=619%3A9380&viewport=748%2C1191%2C0.14)**
 
@@ -29,7 +29,7 @@
 * **Preprocesadores & Frameworks:** SCSS (SASS), Bootstrap
 * **UI & Componentes:** SweetAlert, Font Awesome
 * **Diseño & Prototipado:** Figma, Behance
-* **Hosting:** GitHub Pages
+* **Hosting:** Vercel / GitHub Pages
 
 ## 💻 Instalación y Ejecución Local
 
@@ -42,7 +42,7 @@ Para clonar y abrir el proyecto localmente:
 2. Ingresar a la carpeta del proyecto:
 
    ```bash
-   cd KittApp
+   cd KittApp-Web
 
 3. Abrir el proyecto:
 
