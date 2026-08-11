@@ -7,7 +7,7 @@
 ---
 
 ## 🌐 Sitio Web en Vivo & Recurso UX/UI
-* 🔗 **[Visitar Sitio Web Desplegado](https://solprinz.github.io/KittApp/)**
+* 🔗 **[Visitar Sitio Web Desplegado](https://solprinz.github.io/KittApp-Web/)**
 * 🎨 **[Caso de Estudio UX/UI en Behance](https://www.behance.net/gallery/157078249/KittApp-DISENO-UX-UI)**
 * 📱 **[Prototipo Interactivo en Figma](https://www.figma.com/proto/SU5LkCcQRYOEkLF9q2pJtf/Prototipo-Prinzen?embed_host=share&kind=&node-id=114-1404&page-id=45%3A188&scaling=scale-down&starting-point-node-id=619%3A9380&viewport=748%2C1191%2C0.14)**
 
@@ -37,7 +37,7 @@ Para clonar y abrir el proyecto localmente:
 
 1. Clonar el repositorio:
    ```bash
-   git clone [https://github.com/solprinz/KittApp.git](https://github.com/solprinz/KittApp.git)
+   git clone [https://github.com/solprinz/KittApp-Web.git](https://github.com/solprinz/KittApp-Web.git)
 
 2. Ingresar a la carpeta del proyecto:
 
